@@ -61,3 +61,7 @@ body {
 .flex {
   justify-content: flex-end;
 }
+.btn{
+  cursor: pointer;
+}
+.i
