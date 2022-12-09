@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>北斗七星</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
-	<body>
-	 <hi id="title" >北斗七星</hi>
-	 <img src="IMG_5680.PNG" width="90" height="60" alt="北斗七星旗">
-	 <p>格言：手握日月摘星辰，世間無我這般人</p>
-	 <hr>
-	 <div class="box1">
-	   <p>內門：北斗七星</p>
-	   <div class="box1-1">
-	   <ol>
-	   <li>天樞	冕下 ｜</li>
-	   <li>天璇	冕下 ｜</li>
-	   <li>天機	冕下 ｜</li>
-	   <li>天權	冕下 ｜</li>
-	   <li>玉衡	冕下 ｜</li>
-	   <li>開陽	冕下 ｜</li>
-	   <li>瑤光	冕下 ｜</li>
-	   </ol>
-	   </div>
-	 </div>
-	 <hr>
-	 <div class="box1">
-	   <p>外門：星海之雲</p>
-	   <div class="box1-1">
-	   <ol>
-	   <li>星	字輩 ｜</li>
-	   <li>海	字輩 ｜</li>
-	   <li>之	字輩 ｜</li>
-	   <li>雲	字輩 ｜</li>
-	   </ol>
-	   </div>
-	 </div>
-	 <p>其名「星海之雲」之緣故是求其「星海擴張，既成星雲」之意。
-望成員皆是那閃耀的群星，照亮星海。</p>
-	 <hr>
-	 <img src="CD36E92D-BB8C-4797-B818-83C7C52C74DC.jpg" width="300" height="200" alt="北斗七星玉衡旗">
-	 
+  <head>
+    <title>北斗七星</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <hi id="title">北斗七星</hi>
+    <img src="IMG_5680.PNG" width="90" height="60" alt="北斗七星旗" />
+    <p>格言：手握日月摘星辰，世間無我這般人</p>
+    <hr />
+    <div class="box1">
+      <p>內門：北斗七星</p>
+      <div class="box1-1">
+        <ol>
+          <li>天樞 冕下 ｜</li>
+          <li>天璇 冕下 ｜</li>
+          <li>天機 冕下 ｜</li>
+          <li>天權 冕下 ｜</li>
+          <li>玉衡 冕下 ｜</li>
+          <li>開陽 冕下 ｜</li>
+          <li>瑤光 冕下 ｜</li>
+        </ol>
+      </div>
+    </div>
+    <hr />
+    <div class="box1">
+      <p>外門：星海之雲</p>
+      <div class="box1-1">
+        <ol>
+          <li>星 字輩 ｜</li>
+          <li>海 字輩 ｜</li>
+          <li>之 字輩 ｜</li>
+          <li>雲 字輩 ｜</li>
+        </ol>
+      </div>
+    </div>
+    <p>
+      其名「星海之雲」之緣故是求其「星海擴張，既成星雲」之意。
+      望成員皆是那閃耀的群星，照亮星海。
+    </p>
+    <hr />
 
-	</body>
+    <script>
+      var i = 1;
+      function opoo() {
+        if (i == 1) {
+          document.getElementById("oooo").src =
+            "CD36E92D-BB8C-4797-B818-83C7C52C74DC.jpg";
+          i = 0;
+        } else {
+          document.getElementById("oooo").src = "";
+          i = 1;
+        }
+      }
+      //java script code
+    </script>
+
+    <p onclick="opoo()">ooooo</p>
+    <img id="oooo" src="" width="300" height="200" alt="北斗七星玉衡旗" />
+  </body>
 </html>
