@@ -1,7 +1,7 @@
 body{
     background-color:
         #1E1E1E;
-    color:#FFFFFF;
+    color:#FFFFFF; 
 }
 ul{
     list-style: lower-greek;
@@ -14,4 +14,11 @@ a:visited{
 }
 a:hover{
     color: burlywood;
+}
+#duh{
+    padding: 8px;
+}
+.div1{
+    margin: 0 auto;
+    width: 60%;
 }
