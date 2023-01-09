@@ -25,3 +25,7 @@ li a.active {
     color: white;
     background-color: #4CAF50;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
